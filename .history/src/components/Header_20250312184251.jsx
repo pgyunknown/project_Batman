@@ -48,8 +48,9 @@
     const toggleButton = () => {
       setMobileOpen(!mobileOpen);
     };
+
     return (
-      <nav className=' z-50 top-0 py-5 drop-shadow-2xl bg-white '>
+      <nav className='font-web sticky z-50 top-0 py-5 drop-shadow-2xl bg-white '>
         <div className='container px-4 mx-auto relative text-sm'>
           <div className='flex justify-between items-center'>
             <div className='flex items-center flex-shrink-0 '>
@@ -75,7 +76,7 @@
             </div>
           </div>
             {mobileOpen && (
-            <div className='fixed right-0 z-100 bg-black lg:hidden md:hidden flex justify-center items-center w-full p-2  '>
+            <div className='fixed right-0 z-20 bg-black lg:hidden md:hidden flex justify-center items-ce w-full p-2  '>
               <ul className='flex flex-col text-white  space-y-2 border-amber-300'>
                 <li>Home</li>
                 <li>Characters</li>

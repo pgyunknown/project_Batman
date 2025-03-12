@@ -48,8 +48,12 @@
     const toggleButton = () => {
       setMobileOpen(!mobileOpen);
     };
+    let i = 0;
+    for (i = 0; i < 101; i++)
+      console.log("Shawarma"+" ");
+
     return (
-      <nav className=' z-50 top-0 py-5 drop-shadow-2xl bg-white '>
+      <nav className='font-web z-50 top-0 py-5 drop-shadow-2xl bg-white '>
         <div className='container px-4 mx-auto relative text-sm'>
           <div className='flex justify-between items-center'>
             <div className='flex items-center flex-shrink-0 '>
