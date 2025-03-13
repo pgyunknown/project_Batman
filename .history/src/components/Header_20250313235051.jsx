@@ -49,13 +49,13 @@ import { Link } from 'react-router-dom';
     const toggleButton = () => {
       setMobileOpen(!mobileOpen);
     };
-    const closeMenu=()=>setMobileOpen(false);
+    const closeMenu=()=>setMobileOpen(false)
     return (
       <nav className=' z-50 top-0 py-5 drop-shadow-2xl bg-white '>
         <div className='container px-4 mx-auto relative text-sm'>
           <div className='flex justify-between items-center'>
             <div className='flex items-center flex-shrink-0 '>
-              <Link to={'/'}><img className='h-8 w-6 mr-2' src='/batMan.png' alt='Logo' /></Link>
+              <img className='h-8 w-6 mr-2' src='/batMan.png' alt='Logo' />
               <span className='text-xl tracking-tight'>BatWerse</span>
             </div>
             
