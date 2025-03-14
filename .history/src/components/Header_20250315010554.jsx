@@ -51,15 +51,15 @@ import { Link } from 'react-router-dom';
     };
     const closeMenu=()=>setMobileOpen(false);
     return (
-      <nav className=' z-50 top-0 py-5 drop-shadow-2xl bg-white '>
+      <nav className=' z-50 top-0 py-5 drop-shadow-2xl bg-white font-batmanFont'>
         <div className='container px-4 mx-auto relative text-sm'>
           <div className='flex justify-between items-center'>
             <div className='flex items-center flex-shrink-0 '>
               <Link to={'/'}><img className='h-8 w-6 mr-2' src='/batMan.png' alt='Logo' /></Link>
-              <span className='sm:text-xl text-lg tracking-tight font-batmanFont'>BatWerse</span>
+              <span className='text-xl tracking-tight '>BatWerse</span>
             </div>
             
-            <ul className='hidden lg:flex md:flex  space-x-5 text-xl font-batmanFont'>
+            <ul className='hidden lg:flex md:flex  space-x-5 text-xl'>
               <li><Link to='/'>Home</Link></li>
               <li><Link to='/Characters'>Characters</Link></li>
               <li><Link to='/Movies'>Movies</Link></li>
@@ -78,7 +78,7 @@ import { Link } from 'react-router-dom';
           </div>
             {mobileOpen && (
             <div className='fixed right-0 z-100 bg-black lg:hidden md:hidden flex justify-center items-center w-full p-2  '>
-              <ul className='flex flex-col text-white  space-y-2 tracking-widest font-thin font-batmanFont'>
+              <ul className='flex flex-col text-white  space-y-2 font-batmanFont'>
               <li><Link to='/' onClick={closeMenu}>Home</Link></li>
               <li><Link to='/Characters' onClick={closeMenu}>Characters</Link></li>
               <li><Link to='/Movies' onClick={closeMenu}>Movies</Link></li>

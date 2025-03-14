@@ -20,7 +20,7 @@
 @import "tailwindcss";
 
 @theme{
-  --font-batmanFont: "Batman", sans-serif;  
+   --font-batmanFont: "Batman", sans-serif;  
   --font-web: Titillium Web, "sans-serif";
   --font-doto: Doto, sans-serif;
   --font-rushford : Rushford,"sans-serif";

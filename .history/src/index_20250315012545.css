@@ -1,26 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montaga&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
 @font-face {
-    font-family: "Batman";
-    src: url("src/fonts/JMH Typewriter-Black.otf") format("opentype");
-}
+    font-family: Batman;
+    src: url("src/fonts/JMH Typewriter-Black.otf");
+    font-family: Rushford;
+    src: url("src/fonts/Rushford Printed.otf");
 
-@font-face {
-    font-family: "Rushford";
-    src: url("src/fonts/Rushford Printed.otf") format("opentype");
+    font-family: Personal;
+    src: url("src/fonts/Personal Services.ttf");
 }
-
-@font-face {
-    font-family: "Personal";
-    src: url("src/fonts/Personal Services.ttf") format("truetype");
-}
-
 
 
 @import "tailwindcss";
 
 @theme{
-  --font-batmanFont: "Batman", sans-serif;  
+  --font-batmanFont : BatmanFont,"sans-serif";  
   --font-web: Titillium Web, "sans-serif";
   --font-doto: Doto, sans-serif;
   --font-rushford : Rushford,"sans-serif";

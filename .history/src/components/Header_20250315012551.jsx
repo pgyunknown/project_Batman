@@ -56,10 +56,10 @@ import { Link } from 'react-router-dom';
           <div className='flex justify-between items-center'>
             <div className='flex items-center flex-shrink-0 '>
               <Link to={'/'}><img className='h-8 w-6 mr-2' src='/batMan.png' alt='Logo' /></Link>
-              <span className='sm:text-xl text-lg tracking-tight font-batmanFont'>BatWerse</span>
+              <span className='text-xl tracking-tight font-batmanFont '>BatWerse</span>
             </div>
             
-            <ul className='hidden lg:flex md:flex  space-x-5 text-xl font-batmanFont'>
+            <ul className='hidden lg:flex md:flex  space-x-5 text-xl'>
               <li><Link to='/'>Home</Link></li>
               <li><Link to='/Characters'>Characters</Link></li>
               <li><Link to='/Movies'>Movies</Link></li>
