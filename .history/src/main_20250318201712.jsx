@@ -4,14 +4,14 @@ import './index.css'
 import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
 import MoviesDataProvider from './data/MoviesContextData.jsx'
-import CharDataProvider from './data/CharContextData.jsx'
+import { CharDataContext } from './data/CharContextData.jsx'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
+    <CharDataContext>
     <MoviesDataProvider>
-      <CharDataProvider>
-        <App></App>
-        </CharDataProvider>
-    </MoviesDataProvider>
+      <App></App>
+      </MoviesDataProvider>
+      </CharDataContext>
   </BrowserRouter>
 )

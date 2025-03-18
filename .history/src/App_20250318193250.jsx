@@ -7,18 +7,16 @@ import About from "./pages/About";
 import Footer from "./components/Footer";
 
 
-
 const App = () => {
   return (
     <>
-    <Header></Header>
-
+      <Header></Header>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/Characters" element={<Characters/>}></Route>
         <Route path="/Movies" element={<Movies />}></Route>
         <Route path="/About" element={<About />}></Route>
-        </Routes>
+      </Routes>
       <Footer></Footer>
     </>
   );

@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import CharDataProvider from '../data/CharContextData';
+import { CharDataContext } from 
 
 const Characters = () => {
   // Correct variable name

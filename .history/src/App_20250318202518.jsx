@@ -5,7 +5,8 @@ import Characters from "./pages/Characters";
 import Movies from "./pages/Movies";
 import About from "./pages/About";
 import Footer from "./components/Footer";
-
+import { CharDataContext } from "./data/CharContextData";
+import { MovieDataContext } from "./data/MoviesContextData";
 
 
 const App = () => {
