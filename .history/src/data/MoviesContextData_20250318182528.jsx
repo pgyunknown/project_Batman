@@ -103,7 +103,7 @@ const movies = [
     "type": "Animated",
     "poster": "public/The_Lego_Batman_Movie.jpg",
     "rating": 7.3,
-    "trailer": "https://youtu.be/zhIRbLHVD8o?si=ZEZxlmZ5Ggvd7l0j"
+    "trailer": "https://www.youtube.com/watch?v=h6DOpfJzmo0"
   },
   {
     "title": "Batman and Harley Quinn",
@@ -112,7 +112,7 @@ const movies = [
     "type": "Animated",
     "poster": "public/Batman_Harly_Queen.jpg",
     "rating": 5.9,
-    "trailer": "https://youtu.be/z0pI8TT9AZ0?si=LLQY_2KE5143wwRL"
+    "trailer": "https://www.youtube.com/watch?v=U5GqzBMnCjM"
   },
   {
     "title": "The Batman",
@@ -121,7 +121,7 @@ const movies = [
     "type": "Live-Action",
     "poster": "public/The_Batman.jpg",
     "rating": 7.9,
-    "trailer": "https://youtu.be/mqqft2x_Aa4?si=RHrFASm1bH8ZrcCo"
+    "trailer": "https://www.youtube.com/watch?v=mqqft2x_Aa4"
   }
 ];
 

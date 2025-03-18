@@ -58,7 +58,7 @@ const movies = [
     "type": "Live-Action",
     "poster": "public/Batman_&_Robin.jpg",
     "rating": 3.7,
-    "trailer": "https://youtu.be/vHoCb78b97A?si=Zfa3RYv36ES8baUg"
+    "trailer": "https://www.youtube.com/watch?v=eTmrOGzVAYQ"
   },
   {
     "title": "Batman Begins",
@@ -67,7 +67,7 @@ const movies = [
     "type": "Live-Action",
     "poster": "public/Batman_Begins.jpg",
     "rating": 8.2,
-    "trailer": "https://youtu.be/qHhHIbNuok8?si=1Gx6gT5VXzpfr3cm"
+    "trailer": "https://www.youtube.com/watch?v=neY2xVmOfUM"
   },
   {
     "title": "The Dark Knight",
@@ -76,7 +76,7 @@ const movies = [
     "type": "Live-Action",
     "poster": "public/The_Dark_Knight.jpg",
     "rating": 9.0,
-    "trailer": "https://youtu.be/EXeTwQWrcwY?si=jm1wxVJ8UWzOz0uy"
+    "trailer": "https://www.youtube.com/watch?v=EXeTwQWrcwY"
   },
   {
     "title": "The Dark Knight Rises",
@@ -85,7 +85,7 @@ const movies = [
     "type": "Live-Action",
     "poster": "public/Dark_knight_rises.jpg",
     "rating": 8.4,
-    "trailer": "https://youtu.be/g8evyE9TuYk?si=w-kE5NZj5gE4Pf3f"
+    "trailer": "https://www.youtube.com/watch?v=g8evyE9TuYk"
   },
   {
     "title": "Batman v Superman: Dawn of Justice",
@@ -94,7 +94,7 @@ const movies = [
     "type": "Live-Action",
     "poster": "public/Batman_v_Superman_Dawn_of_Justice.jpg",
     "rating": 6.4,
-    "trailer": "https://youtu.be/0WWzgGyAH6Y?si=v3P8qx-550BwJkFd"
+    "trailer": "https://www.youtube.com/watch?v=0WWzgGyAH6Y"
   },
   {
     "title": "The Lego Batman Movie",
@@ -103,7 +103,7 @@ const movies = [
     "type": "Animated",
     "poster": "public/The_Lego_Batman_Movie.jpg",
     "rating": 7.3,
-    "trailer": "https://youtu.be/zhIRbLHVD8o?si=ZEZxlmZ5Ggvd7l0j"
+    "trailer": "https://www.youtube.com/watch?v=h6DOpfJzmo0"
   },
   {
     "title": "Batman and Harley Quinn",
@@ -112,7 +112,7 @@ const movies = [
     "type": "Animated",
     "poster": "public/Batman_Harly_Queen.jpg",
     "rating": 5.9,
-    "trailer": "https://youtu.be/z0pI8TT9AZ0?si=LLQY_2KE5143wwRL"
+    "trailer": "https://www.youtube.com/watch?v=U5GqzBMnCjM"
   },
   {
     "title": "The Batman",
@@ -121,7 +121,7 @@ const movies = [
     "type": "Live-Action",
     "poster": "public/The_Batman.jpg",
     "rating": 7.9,
-    "trailer": "https://youtu.be/mqqft2x_Aa4?si=RHrFASm1bH8ZrcCo"
+    "trailer": "https://www.youtube.com/watch?v=mqqft2x_Aa4"
   }
 ];
 

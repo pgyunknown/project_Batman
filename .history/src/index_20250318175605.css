@@ -27,7 +27,7 @@
 
 @font-face {
     font-family: "Inter";
-    src: url("src/fonts/Inter-VariableFont_opsz,wght.ttf");
+    src: url();
 }
 
 
@@ -41,5 +41,4 @@
     --font-personal : Personal,"sans-serif";
     --font-heading:HeadingNow,"sans-serif";
     --font-american:American,"sans-serif";
-    --font-inter:Inter,"sans-serif";
 }

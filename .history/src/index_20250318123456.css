@@ -20,26 +20,15 @@
     src: url("src/fonts/HeadingNowTrial-04Regular.ttf");
 }
 
-@font-face {
-    font-family: "American";
-    src: url("src/fonts/American Captain.otf");
-}
-
-@font-face {
-    font-family: "Inter";
-    src: url("src/fonts/Inter-VariableFont_opsz,wght.ttf");
-}
 
 
 @import "tailwindcss";
 
 @theme{
-    --font-batmanFont: "Batman", sans-serif;  
-    --font-web: Titillium Web, "sans-serif";
-    --font-doto: Doto, sans-serif;
-    --font-rushford : Rushford,"sans-serif";
-    --font-personal : Personal,"sans-serif";
-    --font-heading:HeadingNow,"sans-serif";
-    --font-american:American,"sans-serif";
-    --font-inter:Inter,"sans-serif";
+  --font-batmanFont: "Batman", sans-serif;  
+  --font-web: Titillium Web, "sans-serif";
+  --font-doto: Doto, sans-serif;
+  --font-rushford : Rushford,"sans-serif";
+  --font-personal : Personal,"sans-serif";
+  --font-heading:HeadingNow,"sans-serif"
 }

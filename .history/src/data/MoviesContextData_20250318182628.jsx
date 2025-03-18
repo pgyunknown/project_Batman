@@ -121,7 +121,7 @@ const movies = [
     "type": "Live-Action",
     "poster": "public/The_Batman.jpg",
     "rating": 7.9,
-    "trailer": "https://youtu.be/mqqft2x_Aa4?si=RHrFASm1bH8ZrcCo"
+    "trailer": "https://www.youtube.com/watch?v=mqqft2x_Aa4"
   }
 ];
 

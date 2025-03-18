@@ -21,14 +21,10 @@
 }
 
 @font-face {
-    font-family: "American";
-    src: url("src/fonts/American Captain.otf");
+    font-family: "";
+    src: url();
 }
 
-@font-face {
-    font-family: "Inter";
-    src: url("src/fonts/Inter-VariableFont_opsz,wght.ttf");
-}
 
 
 @import "tailwindcss";
@@ -39,7 +35,5 @@
     --font-doto: Doto, sans-serif;
     --font-rushford : Rushford,"sans-serif";
     --font-personal : Personal,"sans-serif";
-    --font-heading:HeadingNow,"sans-serif";
-    --font-american:American,"sans-serif";
-    --font-inter:Inter,"sans-serif";
+    --font-heading:HeadingNow,"sans-serif"
 }
