@@ -63,6 +63,7 @@ import { Link } from 'react-router-dom';
               <li><Link to='/'>Home</Link></li>
               <li><Link to='/Characters'>Characters</Link></li>
               <li><Link to='/Movies'>Movies</Link></li>
+              <li><Link to='/About'>About</Link></li>
             </ul>
             
             <div className='lg:hidden md:hidden'>

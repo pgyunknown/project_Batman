@@ -4,14 +4,14 @@ import Home from "./pages/Home";
 import Characters from "./pages/Characters";
 import Movies from "./pages/Movies";
 import Footer from "./components/Footer";
-import Popup from "./components/PopUp";
 
 
 
 const App = () => {
   return (
     <>
-      <Header></Header>
+    <Header></Header>
+
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/Characters" element={<Characters/>}></Route>

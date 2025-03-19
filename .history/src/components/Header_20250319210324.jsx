@@ -81,6 +81,7 @@ import { Link } from 'react-router-dom';
               <li><Link to='/' onClick={closeMenu}>Home</Link></li>
               <li><Link to='/Characters' onClick={closeMenu}>Characters</Link></li>
               <li><Link to='/Movies' onClick={closeMenu}>Movies</Link></li>
+              <li><Link to='/About' onClick={closeMenu}>About</Link></li>
               </ul>
             </div>
           )}

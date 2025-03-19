@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
 import Popup from '../components/PopUp'
-import BatmanFeedbackCard from '../components/BatmanFeedbackCard'
 
 const Home = () => {
   return (
@@ -42,7 +41,9 @@ const Home = () => {
         </p>
       </div>
 
-      <BatmanFeedbackCard/>
+      <div className='bg-black text-white flex justify-center items-center h-20 w-1/2 mx-auto'>
+        <p>Your feedback is valuable. Feel free to reach out to Your Guy.</p>
+      </div>
     </>
     )
 }

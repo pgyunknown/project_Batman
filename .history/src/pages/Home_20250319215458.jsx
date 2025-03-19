@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
 import Popup from '../components/PopUp'
-import BatmanFeedbackCard from '../components/BatmanFeedbackCard'
 
 const Home = () => {
   return (
@@ -41,8 +40,6 @@ const Home = () => {
           Yes, the project is continually updated to include more characters, storylines, and trivia.
         </p>
       </div>
-
-      <BatmanFeedbackCard/>
     </>
     )
 }

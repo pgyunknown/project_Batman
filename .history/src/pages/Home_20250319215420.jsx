@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
 import Popup from '../components/PopUp'
-import BatmanFeedbackCard from '../components/BatmanFeedbackCard'
 
 const Home = () => {
   return (
@@ -32,17 +31,9 @@ const Home = () => {
         <h1 className='sm:text-4xl sm:p-2 text-5xl font-anton tracking-wide'>What content can I find here?</h1>
         <p className='sm:text-2xl sm:p-2 text-sm tracking-wide font-web border-b-2 border-gray-400'>
           You'll find character bios, iconic quotes, storyline summaries, and character appearances in Batman universe.
+
         </p>
       </div>
-
-            <div className='sm:my-5 sm:mx-5'>
-        <h1 className='sm:text-4xl sm:p-2 text-5xl font-anton tracking-wide'>Is this project still a work in progress?</h1>
-        <p className='sm:text-2xl sm:p-2 text-sm tracking-wide font-web border-b-2 border-gray-400'>
-          Yes, the project is continually updated to include more characters, storylines, and trivia.
-        </p>
-      </div>
-
-      <BatmanFeedbackCard/>
     </>
     )
 }

@@ -12,6 +12,8 @@ const App = () => {
   return (
     <>
       <Header></Header>
+      <Popup></Popup>
+
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/Characters" element={<Characters/>}></Route>

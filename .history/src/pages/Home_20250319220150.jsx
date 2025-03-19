@@ -42,7 +42,7 @@ const Home = () => {
         </p>
       </div>
 
-      <BatmanFeedbackCard/>
+      <BatmanFeedbackCard></BatmanFeedbackCard>
     </>
     )
 }
