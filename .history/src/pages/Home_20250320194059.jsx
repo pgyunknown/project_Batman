@@ -7,25 +7,24 @@ const Home = () => {
   return (
     <>
       
-    <div className="w-full sm:h-screen  text-2xl">
+    <div className="w-full sm:h-screen  text-2xl  ">
       <img src="/bannerPic.webp" className="w-full  sm:h-[100vh] h-[50vh] " />
       </div>
-      <div className='pt-5 pb-5'>
       <div className='md:my-5 md:mx-5 p-2 md:p-0'>
-        <h1 className=' text-2xl sm:p-2 md:text-3xl font-anton tracking-wide '>What is this?</h1>
+        <h1 className=' text-xl sm:p-2 md:text-3xl font-anton tracking-wide '>What is this?</h1>
         <p className='sm:text-2xl sm:p-2 text-sm tracking-wide font-web border-b-2 border-gray-400'>
           This project aims to provide a comprehensive guide to Batman's universe, exploring his characters, storylines, and cultural impact.As a passion project for Batman enthusiasts, it's designed to share detailed information and celebrate the legacy of the Dark Knight.
         </p>
       </div>
       <div className='md:my-5 md:mx-5 p-2 md:p-0'>
-        <h1 className='text-2xl sm:p-2 md:text-3xl font-anton tracking-wide'>How to Navigate?</h1>
+        <h1 className='text-xl sm:p-2 md:text-3xl font-anton tracking-wide'>How to Navigate?</h1>
         <p className='sm:text-2xl sm:p-2 text-sm tracking-wide font-web border-b-2 border-gray-400'>
           Use the navigation bar to explore different sections like Characters, Movies, and Q&A for quick insights.
         </p>
       </div>
       <div className='md:my-5 md:mx-5 p-2 md:p-0'>
         <h1 className='text-xl sm:p-2 md:text-3xl font-anton tracking-wide'>Which technologies were used to build this project?</h1>
-        <p className='sm:text-2xl sm:p-2 text-sm tracking-wide font-web border-b-2 border-gray-400'>
+        <p className='sm:text-2xl sm:p-2  md:text-sm tracking-wide font-web border-b-2 border-gray-400'>
           The project is built using React(Vite), Tailwind CSS, and JavaScript, combining a responsive design for an engaging experience.
         </p>
       </div>
@@ -42,7 +41,7 @@ const Home = () => {
           Yes, the project is continually updated to include more characters, storylines, and trivia.
         </p>
       </div>
-      </div>
+
       <BatmanFeedbackCard/>
     </>
     )

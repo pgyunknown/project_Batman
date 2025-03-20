@@ -59,7 +59,7 @@ import { Link } from 'react-router-dom';
               <span className='sm:text-xl text-lg tracking-tight font-batmanFont'>BatWerse</span>
             </div>
             
-            <ul className='hidden lg:flex md:flex  space-x-5 text-xl font-babas tracking-widest'>
+            <ul className='hidden lg:flex md:flex  space-x-5 text-xl font-inter'>
               <li><Link to='/'>Home</Link></li>
               <li><Link to='/Characters'>Characters</Link></li>
               <li><Link to='/Movies'>Movies</Link></li>
@@ -77,7 +77,7 @@ import { Link } from 'react-router-dom';
           </div>
             {mobileOpen && (
             <div className='fixed right-0 z-100 bg-black lg:hidden md:hidden flex justify-center items-center w-full p-2  '>
-              <ul className='flex flex-col text-white  space-y-2 tracking-widest font-mono font-babas'>
+              <ul className='flex flex-col text-white  space-y-2 tracking-widest font-thin font-batmanFont'>
               <li><Link to='/' onClick={closeMenu}>Home</Link></li>
               <li><Link to='/Characters' onClick={closeMenu}>Characters</Link></li>
               <li><Link to='/Movies' onClick={closeMenu}>Movies</Link></li>

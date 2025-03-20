@@ -18,7 +18,7 @@ const Home = () => {
         </p>
       </div>
       <div className='md:my-5 md:mx-5 p-2 md:p-0'>
-        <h1 className='text-2xl sm:p-2 md:text-3xl font-anton tracking-wide'>How to Navigate?</h1>
+        <h1 className='text-xl sm:p-2 md:text-3xl font-anton tracking-wide'>How to Navigate?</h1>
         <p className='sm:text-2xl sm:p-2 text-sm tracking-wide font-web border-b-2 border-gray-400'>
           Use the navigation bar to explore different sections like Characters, Movies, and Q&A for quick insights.
         </p>
