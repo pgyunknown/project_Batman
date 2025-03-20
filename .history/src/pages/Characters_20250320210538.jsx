@@ -23,13 +23,13 @@ const Characters = () => {
       <p className='mb-2 pb-2 border-b border-gray-500 text-lg'>
         <span className='text-xl font-semibold'>Name</span>: {i.name}
       </p>
-      <p className='mb-2 text-lg pb-2 border-b border-gray-500'>
+      <p className='mb-2 text-lg'>
         <span className='text-xl font-semibold'>Alias</span>: {i.alias}
       </p>
       <p className='mb-2 pb-2 border-b border-gray-500 text-lg '>
         <span className='text-xl font-semibold'>Abilities</span>: {i.abilities.join(", ")}
       </p>
-      <p className='mb-2  text-lg'>
+      <p className='mb-2 pb-2 border-b border-gray-500 text-lg'>
         <span className='text-xl font-semibold'>Iconic Quotes</span>: {i.iconicQuotes.join(" / ")}
       </p>
     </div>
