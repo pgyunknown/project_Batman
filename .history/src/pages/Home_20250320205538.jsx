@@ -30,7 +30,7 @@ const Home = () => {
         </p>
       </div>
             <div className='md:my-5 md:mx-5 p-2 md:p-0'>
-        <h1 className='text-xl sm:p-2 md:text-3xl font-anton tracking-wide font-semibold'>What content can I find here?</h1>
+        <h1 className='text-xl sm:p-2 md:text-3xl font-anton tracking-wide'>What content can I find here?</h1>
         <p className='sm:text-3xl sm:p-2 text-sm tracking-wide font-web border-b-2 border-gray-400'>
           You'll find character bios, iconic quotes, storyline summaries, and character appearances in Batman universe.
         </p>
